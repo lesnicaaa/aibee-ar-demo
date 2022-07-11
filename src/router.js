@@ -9,6 +9,7 @@ const routes = [
   { path: '/boundingbox-particle', component: () => import('./pages/boundingbox-particle/boundingbox-particle.vue')},
   { path: '/full-screen-particle', component: () => import('./pages/full-screen-particle/full-screen-particle.vue') },
   { path: '/multi-floor-navigation', component: () => import('./pages/multi-floor-navigation/multi-floor-navigation.vue') },
+  { path: '/single-floor-navigation', component: () => import('./pages/single-floor-navigation/single-floor-navigation.vue') },
 ]
 
 const router = new VueRouter({

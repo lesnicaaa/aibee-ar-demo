@@ -59,7 +59,9 @@ export default {
     initWrapper() {
       this.innerWidth = window.innerWidth;
       this.innerHeight = window.innerHeight;
-      this.init({ videoWrapper: this.$refs.videoWrapper });
+      this.init({ videoWrapper: this.$refs.videoWrapper }, () => {
+        this.showNeed = false;
+      });
       // const 
       // this.init();
     }
