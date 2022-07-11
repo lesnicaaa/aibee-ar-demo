@@ -23,6 +23,8 @@
 </template>
 
 <script>
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import mixin from '../mixin.js';
 export default {
   mixins: [mixin],
