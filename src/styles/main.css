@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img.not-touch {
+  -webkit-touch-callout: none;
+  pointer-events: none;
+}
+
+div {
+  -webkit-user-select: none;
+  user-select: none;
+}
